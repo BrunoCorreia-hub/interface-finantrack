@@ -46,7 +46,7 @@ const TransactionForm = () => {
         const response = await getCategories();
         setCategories(response);
       } catch {
-        toast.error("Erro ao carregar categorias")
+        toast.error("Erro ao carregar categorias");
       }
     };
     loadCategories();
@@ -58,7 +58,7 @@ const TransactionForm = () => {
         const response = await getPaymentMethod();
         setPaymentMethod(response);
       } catch {
-        toast.error("Erro ao carregar formas de pagamento")
+        toast.error("Erro ao carregar formas de pagamento");
       }
     };
 
@@ -86,7 +86,7 @@ const TransactionForm = () => {
       newErrors.categoryId = "Selecione uma categoria.";
     }
 
-    if (!formData.paymentMethod) {
+    if (formData.type === "expense" && !formData.paymentMethod) {
       newErrors.paymentMethod = "Selecione uma forma de pagamento";
     }
 
@@ -124,6 +124,10 @@ const TransactionForm = () => {
         date: `${formData.date}T12:00:00.000Z`,
       };
 
+      if (formData.type === "income") {
+        delete dataToSend.paymentMethod;
+      }
+
       toast.success("Transação criada com sucesso");
       await new Promise((tempo) => setTimeout(tempo, 2000));
       navigate("/transacoes", { state: { shouldReload: true } });
@@ -136,7 +140,7 @@ const TransactionForm = () => {
         type: "expense",
         paymentMethod: "",
       });
-    } catch {   
+    } catch {
       toast.error("Erro ao criar transação, tente novamente");
     } finally {
       setLoading(false);
@@ -206,7 +210,6 @@ const TransactionForm = () => {
                   })),
                 ]}
                 error={errors.paymentMethod}
-                
               />
             )}
 

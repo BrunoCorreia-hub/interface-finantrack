@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router";
 import { useAuth } from "../context/AuthContext";
-import { Activity, LogOut, Menu, X } from "lucide-react";
+import { LogOut, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "../assets/fintack.png";
 
 interface NavLinks {
   name: string;
@@ -52,14 +53,13 @@ const Header = () => {
   return (
     <header className="bg-gray-900 border-b border-gray-500 fixed w-full top-0 z-999">
       <div className="container-app">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center">
           {/*Logo devbills*/}
           <Link
             to="/"
             className="text-primary-500 flex gap-1.5 text-xl font-bold hover:text-green-700 transition-all"
           >
-            <Activity />
-            DevBills
+            <img src={logo} alt="logo-fintack" className="w-30 h-30" />
           </Link>
 
           {isAuthenticade && (

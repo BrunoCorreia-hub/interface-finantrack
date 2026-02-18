@@ -11,7 +11,7 @@ const Footer = () => {
         <div>
           <h3 className="text-gray-500 font-semibold text-2xl mb-3">Sobre</h3>
           <p className="text-gray-50">
-            O DevBills ajuda você a gerenciar suas finanças com praticidade. Controle despesas,
+            O FinanTrack ajuda você a gerenciar suas finanças com praticidade. Controle despesas,
             receitas e mantenha o equilíbrio financeiro em um só lugar.
           </p>
         </div>
@@ -93,7 +93,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-gray-700 mt-10 pt-5 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} DevBills. Desenvolvido por{" "}
+        © {new Date().getFullYear()} FinanTrack. Desenvolvido por{" "}
         <span className="text-white font-medium">Bruno Correia</span>.
       </div>
     </footer>
