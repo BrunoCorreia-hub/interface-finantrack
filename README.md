@@ -523,8 +523,27 @@ Bruno Correia de Oliveira
 
 ## 📸 Preview
 
-![Login](./assets/screenshots/finantrack.png)
-![Dashboard](./assets/screenshots/finantrack1.png)
-![Transactions](./assets/screenshots/finantrack2.png)
+<table align="center">
+  <tr>
+    <td align="center">
+      <p>🔒 Login</p>
+      <img src="./src/assets/screenshots/finantrack.png" width="300">
+    </td>
+    <td align="center">
+      <p>📊 Dashboard</p>
+      <img src="./src/assets/screenshots/finantrack1.png" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <p>💸 Transações</p>
+      <img src="./src/assets/screenshots/finantrack2.png" width="300">
+    </td>
+    <td align="center">
+      <p>➕ Criar transação</p>
+      <img src="./src/assets/screenshots/finantrack3.png" width="300">
+    </td>
+  </tr>
+</table>
 
 </div>
