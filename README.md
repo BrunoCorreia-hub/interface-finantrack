@@ -466,7 +466,7 @@ Encontrou um bug ou tem uma sugestão?
 
 <div align="center">
 
-**Bruno Correia Oliveira**
+**Bruno Correia de Oliveira**
 
 Desenvolvedor Front-End | Apaixonado por React e TypeScript
 
@@ -519,10 +519,12 @@ div align="center">
 
 ### 🌟 Se este projeto foi útil, considere dar uma estrela! ⭐
 
-Made with ❤️ by Bruno Correia Oliveira
+Bruno Correia de Oliveira
 
+## 📸 Preview
 
-
-oltar ao topo](#-finantrack)**
+![Login](./assets/screenshots/finantrack.png)
+![Dashboard](./assets/screenshots/finantrack1.png)
+![Transactions](./assets/screenshots/finantrack2.png)
 
 </div>
