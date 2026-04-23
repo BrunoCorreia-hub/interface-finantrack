@@ -1,6 +1,34 @@
 # 💰 FinanTrack
 
 > Seu assistente financeiro pessoal. Controle suas finanças com inteligência, segurança e estilo.
+ ## 🌐 Deploy
+
+🔗 [Acesse o FinanTrack](https://devfinantrack.netlify.app)
+
+## 📸 Preview
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <p>🔒 Login</p>
+      <img src="./src/assets/screenshots/finantrack.png" width="300">
+    </td>
+    <td align="center">
+      <p>📊 Dashboard</p>
+      <img src="./src/assets/screenshots/finantrack1.png" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <p>💸 Transações</p>
+      <img src="./src/assets/screenshots/finantrack2.png" width="300">
+    </td>
+    <td align="center">
+      <p>➕ Criar transação</p>
+      <img src="./src/assets/screenshots/finantrack3.png" width="300">
+    </td>
+  </tr>
+</table>
 
 <div align="center">
 
@@ -520,30 +548,5 @@ div align="center">
 ### 🌟 Se este projeto foi útil, considere dar uma estrela! ⭐
 
 Bruno Correia de Oliveira
-
-## 📸 Preview
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <p>🔒 Login</p>
-      <img src="./src/assets/screenshots/finantrack.png" width="300">
-    </td>
-    <td align="center">
-      <p>📊 Dashboard</p>
-      <img src="./src/assets/screenshots/finantrack1.png" width="300">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <p>💸 Transações</p>
-      <img src="./src/assets/screenshots/finantrack2.png" width="300">
-    </td>
-    <td align="center">
-      <p>➕ Criar transação</p>
-      <img src="./src/assets/screenshots/finantrack3.png" width="300">
-    </td>
-  </tr>
-</table>
 
 </div>
